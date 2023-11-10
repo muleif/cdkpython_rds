@@ -1,0 +1,20 @@
+{
+  "app": "python app.py",
+  "versioningReporting": false,
+  "context": {
+    "envs": {
+      "Prod":{
+        "Owner": "felix",
+        "region": "eu-west-2",
+        "vpc_config": {
+          "vpc_cidr": "10.1.0.0/16",
+          "cidr_mask": 24,
+          "set_reserve": false
+        }
+      
+      }
+      
+    }
+  }
+
+}
